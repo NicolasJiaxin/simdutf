@@ -1,0 +1,36 @@
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 16B -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.2 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   7.7 ms    7417 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 128B -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   2.8 ms    7229 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 512B -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   4.8 ms    7178 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 1KB -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.0 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   3.3 ms    7099 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 4KB -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   2.9 ms    6885 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 16KB -o /dev/null
+  Time (mean ± σ):       0.5 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   4.4 ms    6340 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 100KB -o /dev/null
+  Time (mean ± σ):       0.7 ms ±   0.0 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.7 ms …   1.4 ms    4239 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 500KB -o /dev/null
+  Time (mean ± σ):       1.8 ms ±   0.0 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     1.8 ms …   1.9 ms    1651 runs
+ 
+Benchmark 1: ./build/tools/sutf -f UTF-8 -t UTF-16LE 2MB -o /dev/null
+  Time (mean ± σ):       6.3 ms ±   0.1 ms    [User: 3.8 ms, System: 0.2 ms]
+  Range (min … max):     6.2 ms …   6.6 ms    478 runs
+ 

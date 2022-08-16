@@ -1,0 +1,36 @@
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 16B -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   3.8 ms    7519 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 128B -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   4.3 ms    7234 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 512B -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   2.9 ms    7507 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 1KB -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   3.6 ms    7417 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 4KB -o /dev/null
+  Time (mean ± σ):       0.4 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.4 ms …   3.1 ms    7138 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 16KB -o /dev/null
+  Time (mean ± σ):       0.5 ms ±   0.0 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     0.5 ms …   3.7 ms    5942 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 100KB -o /dev/null
+  Time (mean ± σ):       1.2 ms ±   0.0 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     1.2 ms …   2.8 ms    2487 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 500KB -o /dev/null
+  Time (mean ± σ):       4.4 ms ±   0.0 ms    [User: 4.0 ms, System: 0.0 ms]
+  Range (min … max):     4.4 ms …   4.5 ms    682 runs
+ 
+Benchmark 1: iconv -f UTF-8 -t UTF-16LE 2MB -o /dev/null
+  Time (mean ± σ):      16.8 ms ±   0.1 ms    [User: 16.0 ms, System: 0.0 ms]
+  Range (min … max):    16.8 ms …  17.2 ms    177 runs
+ 

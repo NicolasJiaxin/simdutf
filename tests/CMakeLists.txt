@@ -287,3 +287,9 @@ target_link_libraries(basic_fuzzer
   PUBLIC simdutf
          simdutf::tests::reference
          simdutf::tests::helpers)
+
+add_cpp_test(generate)
+target_link_libraries(generate
+  PUBLIC simdutf
+        simdutf::tests::reference
+        simdutf::tests::helpers)
