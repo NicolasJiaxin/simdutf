@@ -11,4 +11,4 @@ points(sizes, timesiconv, col='blue')
 abline(lm(times~sizes),col = 'forestgreen',lwd = 3)
 abline(lm(timesiconv~sizes),col = 'blue',lwd = 3)
 legend("bottomright", legend=c("sutf", "iconv"),
-       col=c("forestgreen", "forestgreen"), lty=1:2, cex=0.8)
+       col=c("forestgreen", "blue"), lty=1:2, cex=0.8)
