@@ -2,12 +2,12 @@ library(ggplot2)
 
 sizes=c(16, 32, 64, 100, 250, 500, 1024, 2048, 4096, 10240)
 times=c(0.4, 0.5, 0.6, 0.7, 1.1, 1.8, 3.3, 6.3, 12.4, 30.7)
+timesiconv=c(0.5, 0.6, 0.9, 1.2, 2.4, 4.4, 8.6, 16.8, 33.3, 82.6)
 sutf <- data.frame(sizes, times)
-scatter.smooth(sizes, times, main='Hours studied vs. Exam Score')
-head(sutf)
+iconv <- data.frame(sizes,timesiconv)
 model <- lm(times~sizes)
+modeliconv <- lm(timesiconv~sizes)
 summary(model)
-graph <- ggplot(sutf, aes(x=sizes, y=times))
-graph <- graph + geom_smooth(method="lm", col="black")
-
-graph
+summary(modeliconv)
+plot(sizes,times,col="red")
+points(sizes,times,col="green")
