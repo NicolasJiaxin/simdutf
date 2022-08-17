@@ -10,8 +10,8 @@
 #include <iostream>
 #include <memory>
 
-std::vector<size_t> sizes = {16, 128, 512, 1024, 4096, 16384, 102400, 512000, 2097152};
-std::vector<std::string> names = {"16B", "128B", "512B", "1KB", "4KB", "16KB", "100KB", "500KB", "2MB"};
+std::vector<size_t> sizes = {32768};//{8192, 16384, 65536, 102400, 256000, 512000, 1048576, 2097152, 4194304, 10485760};
+std::vector<std::string> names = {"32KB"};//{"8KB", "16KB", "64KB", "100KB", "250KB", "500KB", "1MB", "2MB", "4MB", "10MB"};
 
 
 bool write_to_file_descriptor(std::FILE *fp, const char * data, size_t length) {
